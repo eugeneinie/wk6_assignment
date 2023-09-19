@@ -21,6 +21,12 @@ function calculateSum(num1, num2) {
     pEl.textContent = sum;
     return sum;
 }
+const sumButn = document.getElementById('sumButn'); 
+sumButn.addEventListener('click', calculateSum)
+
+// function calculateSum() {const sum = calculateSum('first'.valueOf, 'second'.valueOf);
+// sum.textContent = sum
+// }
 
 // Question4
 function myFav() {
