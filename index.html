@@ -6,10 +6,46 @@
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="icon" href="./img/designbyinie.png">
     <title>Week6 Assignment</title>
+    <script>
+        // Question5
+        // function Key(evt) {
+        //     const key = evt.key;
+        //     alert(key);
+        // }
+        // document.addEventListener('keydown', key(evt));
+    </script>
 </head>
 <body>
+    <h1>Week6 Assignment</h1>
     <h2>No.1</h2>
-    <p id="myButton" onclick=""></p>
+    <code>
+        <p id="myButton"></p>
+    </code>
+    <button type="button" onclick="getElementById('myButton').innerHTML = 'Button clicked!'">Click me!</button>
+
+    <h2>No.2</h2>
+    <input type="text" id="myInput">
+    <button id="mySubmitButton." type="submit">Submit</button>
+
+    <h2>No.3</h2>
+    <input type="text" id="first">
+    <input type="text" id="second">
+    <button type="button" id="sumButn">Calculate Sum</button>
+    <code>
+        <p id="sum"></p>
+    </code>
+
+    <h2>No.4</h2>
+    <code>
+        <p class="myFav">This text will be replaced!</p>
+    </code>
+    <button type="button" id="changeTextButton" onclick="document.getElementsByClassName('myFav').innerHTML = 'New text here!'">Click me!</button>
+
+    <h2>No.5</h2>
+
+    <footer>
+        &lt;&lt;&lt; &copy; <a href="#"><abbr title="designbyinie Technologies">dbi Tech</abbr></a> &gt;&gt;&gt;
+    </footer>
 </body>
 <script src="./JS/script.js"></script>
 </html>
